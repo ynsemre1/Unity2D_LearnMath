@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     private List<int> basariliIndeksler = new List<int>();
     private bool seslerTukendi = false;
 
+    private int yanlisCevaplar = 0;
+
     private void Start()
     {
         // Audio Source bileşenini al
@@ -112,6 +114,7 @@ public class GameManager : MonoBehaviour
                 {
                     // Başarısız bir seçim yapıldığında başarısız ses dosyasını çal
                     audioSource.PlayOneShot(basarisizSes);
+                    yanlisCevaplar++;
                     Debug.Log("Başarısız! Tıklanan butonun içerisindeki sayıyla seçilen ses dosyasının indeksi eşleşmiyor.");
                 }
             }
