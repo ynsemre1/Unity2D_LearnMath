@@ -14,8 +14,12 @@ public class GameManager : MonoBehaviour
     public AudioClip basarisizSes; // Başarısız seçimde çalacak ses dosyası
     private List<int> basariliIndeksler = new List<int>();
     private bool seslerTukendi = false;
+    public GameObject objectToSpawn; // Üreteceğimiz nesne
+    public GameObject[] stars;
+    
 
     private int yanlisCevaplar = 0;
+    public TextMeshProUGUI endUIText;
 
     private void Start()
     {
@@ -44,6 +48,9 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Tüm ses dosyaları seçildi.");
             seslerTukendi = true;
+            endUIText.text = "Yanlis Sayiniz: " + yanlisCevaplar;
+            GuncelleYildizlar();
+            objectToSpawn.SetActive(true);
             return;
         }
 
@@ -128,5 +135,38 @@ public class GameManager : MonoBehaviour
 
         // Bekleme süresi bittikten sonra yapılacak işlemler
         SesDosyasiSecVeCal(); // Yeni ses dosyasını çal
+    }
+
+    public void GuncelleYildizlar()
+    {
+        // Yanlış sayıya göre yıldız sayısını belirle
+        int yildizSayisi = 0;
+        if (yanlisCevaplar <= 5)
+        {
+            yildizSayisi = 3;
+        }
+        else if (yanlisCevaplar > 5 && yanlisCevaplar <= 10)
+        {
+            yildizSayisi = 2;
+        }
+        else
+        {
+            yildizSayisi = 1;
+        }
+
+        // Yıldız objelerini güncelle
+        for (int i = 0; i < stars.Length; i++)
+        {
+            if (i < yildizSayisi)
+            {
+                // Yıldızı aktif hale getir
+                stars[i].SetActive(true);
+            }
+            else
+            {
+                // Yıldızı kapalı hale getir
+                stars[i].SetActive(false);
+            }
+        }
     }
 }

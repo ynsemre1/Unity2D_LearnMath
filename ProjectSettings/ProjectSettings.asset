@@ -890,10 +890,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 8d31e026-a688-4e08-a8c1-c91809d6dd5e
+  cloudProjectId: 644dca73-b490-490d-a018-0e95fc41fa83
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Unity2D_LearnMath
+  projectName: Unity2D_LearnMath 2024-03-25_15-07-36
   organizationId: xleria
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
