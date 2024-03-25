@@ -625,6 +625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transition
       objectReference: {fileID: 0}
+    - target: {fileID: 7383496135980154504, guid: 61cb53b97b3294b89b2244719ea06f11, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -640,6 +644,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 142064152}
+  - {fileID: 1911535285}
   - {fileID: 1892078045}
   - {fileID: 384417767}
-  - {fileID: 1911535285}
