@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RocketManager : MonoBehaviour
-{
+{  
    public GameObject[] rockets; // 4 adet rocket objesini tutacak dizi
     public int minNumber = 1; // En küçük rastgele sayı
     public int maxNumber = 7; // En büyük rastgele sayı
