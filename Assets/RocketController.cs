@@ -37,7 +37,6 @@ public class RocketController : MonoBehaviour
             // En küçük aktif nesneyi yok et
             if (minIndex != -1 && objectsToCompare[minIndex] != null) // Referans null değilse işlem yap
             {
-                Destroy(objectsToCompare[minIndex]);
                 objectsToCompare[minIndex] = null; // Referansı null yap
             }
         }

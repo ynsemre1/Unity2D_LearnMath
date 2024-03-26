@@ -123,6 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3878544477334240755}
   - component: {fileID: 3554120401449170356}
+  - component: {fileID: 7000528066546465597}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -197,6 +198,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7000528066546465597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046187720166644830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be43f08f54124706a8723178b460709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2228273941992964650
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332681435602323544}
   - component: {fileID: 1305648416531487082}
+  - component: {fileID: 8677446768563030399}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -281,6 +295,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8677446768563030399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2228273941992964650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be43f08f54124706a8723178b460709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2232041982664624274
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6567124654172075729}
   - component: {fileID: 9221523106540295773}
+  - component: {fileID: 7203633397932234408}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -365,6 +392,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7203633397932234408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2232041982664624274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be43f08f54124706a8723178b460709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4756397117649571050
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5146459720761979293}
   - component: {fileID: 27193061160800651}
+  - component: {fileID: 5851270850370493694}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -449,6 +489,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5851270850370493694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756397117649571050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be43f08f54124706a8723178b460709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5654962428663542074
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,6 +624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8506030286479624344}
   - component: {fileID: 8249100203451174340}
+  - component: {fileID: 5027385615656342482}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -646,6 +699,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5027385615656342482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6009339299612439357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be43f08f54124706a8723178b460709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8248273074502121312
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6670306987304633710}
   - component: {fileID: 8477938775615028358}
+  - component: {fileID: 8405466807104999575}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -730,6 +796,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8405466807104999575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8248273074502121312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be43f08f54124706a8723178b460709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8504243761809268896
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6720100161164071255}
   - component: {fileID: 3334330380922200728}
+  - component: {fileID: 3147181658377407471}
   m_Layer: 0
   m_Name: Star
   m_TagString: Star
@@ -814,6 +893,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3147181658377407471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8504243761809268896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be43f08f54124706a8723178b460709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8618116515177063554
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,7 +1064,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.008596897, y: 0}
@@ -1108,8 +1199,12 @@ PrefabInstance:
       value: 7.66
       objectReference: {fileID: 0}
     - target: {fileID: 9133201526527734124, guid: d95da88540d2d6e44a0c4c40c581b24a, type: 3}
+      propertyPath: needUpdate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9133201526527734124, guid: d95da88540d2d6e44a0c4c40c581b24a, type: 3}
       propertyPath: position.x
-      value: 6.5
+      value: 6.71
       objectReference: {fileID: 0}
     - target: {fileID: 9133201526527734124, guid: d95da88540d2d6e44a0c4c40c581b24a, type: 3}
       propertyPath: position.y
