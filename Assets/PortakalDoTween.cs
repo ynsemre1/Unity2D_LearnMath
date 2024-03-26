@@ -11,10 +11,15 @@ public class PortakalDoTween : MonoBehaviour
     public Button dogruCevap;
     public AudioSource soru2UI;
     public AudioClip soru2;
+    public AudioClip basariliSes;
     public GameObject cevaplar1;
     public GameObject cevaplar2;
+    public GameObject cevaplar3;
     public GameObject portakal3;
     public Button dogruCevap2;
+    public GameObject sample;
+    public GameObject sample2;
+    public GameObject sample2UI;
 
     public void Start()
     {
@@ -23,8 +28,10 @@ public class PortakalDoTween : MonoBehaviour
         dogruCevap.onClick.AddListener(() =>
         {
             movePortakallar();
-            soru.clip = soru2;
+            soru.clip = basariliSes;
+            soru.Play();
             soru2UI.clip = soru2;
+            soru.clip = basariliSes;
             StartCoroutine(ikinciSoru(2f));
             cevaplar1.SetActive(false);
             cevaplar2.SetActive(true);
@@ -33,7 +40,10 @@ public class PortakalDoTween : MonoBehaviour
 
         dogruCevap2.onClick.AddListener(() =>
         {
+            soru.clip = basariliSes;
+            soru.Play();
             movePortakal();
+            StartCoroutine(ikinciSample(2f));
         });
         
     }
@@ -43,6 +53,7 @@ public class PortakalDoTween : MonoBehaviour
         yield return new WaitForSeconds(sure); // Belirtilen süre kadar bekler        
         // Bekleme süresi bittikten sonra burada yapmak istediğiniz işlemleri ekleyebilirsiniz
         AudioSource soru = gameObject.GetComponent<AudioSource>();
+        soru.clip = soru2;
         soru.Play();
     }
 
@@ -91,5 +102,20 @@ public class PortakalDoTween : MonoBehaviour
         // DoTween ile hareketi başlat
         portakal3.transform.DOMove(targetPosition4, 1f).SetEase(Ease.Linear);
         portakal3.transform.DOScale(targetScale, 1f).SetEase(Ease.Linear);
+    }
+
+    IEnumerator ikinciSample(float sure)
+    {
+        yield return new WaitForSeconds(sure); // Belirtilen süre kadar bekler        
+        // Bekleme süresi bittikten sonra burada yapmak istediğiniz işlemleri ekleyebilirsiniz
+        Vector3 startPosition5 = sample.transform.position;
+        Vector3 targetPosition4 = new Vector3(50f, 0f, 0f);
+
+        Vector3 startPosition6 = sample2.transform.position;
+        sample.transform.DOMove(targetPosition4, 1f).SetEase(Ease.Linear);
+        sample2.transform.DOMove(targetPosition4, 1f).SetEase(Ease.Linear);
+        cevaplar2.SetActive(false);
+        cevaplar3.SetActive(true);
+        sample.SetActive(true);
     }
 }
