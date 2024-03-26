@@ -117,5 +117,6 @@ public class PortakalDoTween : MonoBehaviour
         cevaplar2.SetActive(false);
         cevaplar3.SetActive(true);
         sample.SetActive(true);
+        sample2UI.SetActive(true);
     }
 }
