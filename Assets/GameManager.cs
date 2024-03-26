@@ -141,11 +141,11 @@ public class GameManager : MonoBehaviour
     {
         // Yanlış sayıya göre yıldız sayısını belirle
         int yildizSayisi = 0;
-        if (yanlisCevaplar <= 5)
+        if (yanlisCevaplar <= 15)
         {
             yildizSayisi = 3;
         }
-        else if (yanlisCevaplar > 5 && yanlisCevaplar <= 10)
+        else if (yanlisCevaplar > 15 && yanlisCevaplar <= 30)
         {
             yildizSayisi = 2;
         }
