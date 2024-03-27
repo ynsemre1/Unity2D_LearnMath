@@ -4822,7 +4822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d60da0ab8a3f5438e93d060008bc790a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionAnimator: {fileID: 0}
+  transitionAnimator: {fileID: 1039468089}
   transitionTime: 1
   hedefSahneAdi: UIScene
 --- !u!224 &5905780797866529894
@@ -5019,7 +5019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d60da0ab8a3f5438e93d060008bc790a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionAnimator: {fileID: 0}
+  transitionAnimator: {fileID: 1039468089}
   transitionTime: 1
   hedefSahneAdi: Level2
 --- !u!1 &7444318844497832852
@@ -5170,7 +5170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d60da0ab8a3f5438e93d060008bc790a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionAnimator: {fileID: 0}
+  transitionAnimator: {fileID: 1039468089}
   transitionTime: 1
   hedefSahneAdi: Level1
 --- !u!114 &8335903071355023307
