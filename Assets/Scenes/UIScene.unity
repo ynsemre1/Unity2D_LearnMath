@@ -1157,6 +1157,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2510577296423031194, guid: 61cb53b97b3294b89b2244719ea06f11, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 28a78ef1fba7245a6be394cbe1cae504, type: 3}
     - target: {fileID: 5884213573616967111, guid: 61cb53b97b3294b89b2244719ea06f11, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1240,6 +1244,10 @@ PrefabInstance:
     - target: {fileID: 7383496135980154504, guid: 61cb53b97b3294b89b2244719ea06f11, type: 3}
       propertyPath: m_Name
       value: Transition
+      objectReference: {fileID: 0}
+    - target: {fileID: 7383496135980154504, guid: 61cb53b97b3294b89b2244719ea06f11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

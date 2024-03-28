@@ -12,17 +12,17 @@ public class BalonColorGenerator : MonoBehaviour
     {
         // Renk listesi
         List<Color> colors = new List<Color>{
-            Color.red,
-            Color.blue,
-            Color.green,
-            Color.yellow,
-            Color.cyan,
-            Color.magenta,
-            Color.white,
-            Color.gray,
-            new Color(1.0f, 0.5f, 0.0f), // Turuncu renk
-            new Color(0.5f, 0.5f, 0.5f) // Özel bir renk ekleyebilirsiniz
-        };
+            Color.red,          // Kırmızı
+            Color.blue,         // Mavi
+            Color.green,        // Yeşil
+            Color.yellow,       // Sarı
+            Color.cyan,         // Cyan (Açık mavi)
+            Color.magenta,      // Magenta (Açık mor)
+            Color.white,        // Beyaz
+        new Color(1.0f, 0.5f, 0.0f),   // Turuncu
+        new Color(0.0f, 0.8f, 0.8f),    // Parlak turkuaz
+        new Color(0.6f, 0.0f, 0.6f)     // Mor
+                                            };
 
         // Rastgele renklerin atanması
         // Rastgele renklerin atanması
